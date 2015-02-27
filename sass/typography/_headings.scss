@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	a {
+		text-decoration: none;
+	 } 
+	a:hover {
+		text-decoration: underline;
+		font-color: black;
+	}
+}
+
+.site-title {
+	font-weight: 500;
+  padding: 0.5em;
+}
+
+span.custom-header + h1.site-title {
+  display: none;
+}
